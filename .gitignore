@@ -12,9 +12,6 @@ __pycache__/
 # Data
 data/
 
-# Images
-images/
-
 # OS
 .DS_Store
 Thumbs.db
