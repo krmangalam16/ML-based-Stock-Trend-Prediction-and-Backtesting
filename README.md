@@ -115,19 +115,9 @@ Generated outputs include:
 
 ---
 
-## Screenshots
+## Visualization:
 
-### Model Comparison
-
-![Model Comparison](images/model_comparison.png)
-
-### Feature Importance
-
-![Feature Importance](images/feature_importances.png)
-
-### Strategy Performance
-
-![Cumulative Returns](images/cumulative_returns.png)
+![Demo](images/demo.gif)
 
 ---
 
@@ -198,7 +188,7 @@ pip install -r requirements.txt
 Launch Jupyter Notebook:
 
 ```bash
-jupyter notebook Quant_Trading_expanded.ipynb
+jupyter notebook stock-trend-prediction-and-backtesting.ipynb
 ```
 
 Run the notebook from top to bottom to:
