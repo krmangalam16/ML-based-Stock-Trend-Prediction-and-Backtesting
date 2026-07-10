@@ -125,18 +125,19 @@ Generated outputs include:
 
 ```text
 .
-├── src/
-│   ├── utils.py
-│   ├── indicators.py
-│   └── backtest.py
-├── scripts/
-├── images/
-├── data/
-├── Quant_Trading_expanded.ipynb
-├── README.md
-├── requirements.txt
+├── images/                      # Figures and plots used in the README
+├── scripts/                     # Helper scripts for generating results
+│   ├── generate_results.py
+│   └── make_demo_gif.py
+├── src/                         # Core project modules
+│   ├── utils.py                 # Data loading and preprocessing
+│   ├── indicators.py            # Technical indicator calculations
+│   └── backtest.py              # Backtesting functions
+├── .gitignore
 ├── LICENSE
-└── .gitignore
+├── stock-trend-prediction-and-backtesting.ipynb # Main notebook
+├── README.md
+└── requirements.txt
 ```
 
 ---
