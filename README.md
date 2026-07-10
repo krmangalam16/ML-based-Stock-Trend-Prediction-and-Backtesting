@@ -3,9 +3,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](#)
 
 
-A compact, hands-on project using ~10 years of AAPL data to: make simple technical features, train a few classical ML models, and backtest a basic long-only strategy. The focus is learning the end-to-end workflow — results are modest and mainly for discussion.
+# ML-Based Stock Trend Prediction and Backtesting
 
-Presentation (quick demo)
+A machine learning project that predicts the next-day direction of Apple (AAPL) stock using technical indicators and evaluates a rule-based trading strategy through historical backtesting.
+
+The project includes:
+- Data collection using Yahoo Finance
+- Feature engineering with technical indicators
+- Comparison of multiple ML classifiers
+- Hyperparameter tuning using GridSearchCV
+- Strategy backtesting with transaction costs
+
+Presentation:
 
 ![Demo](images/demo.gif)
 
